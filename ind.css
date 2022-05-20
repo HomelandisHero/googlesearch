@@ -17,7 +17,7 @@
 }
 
 .div_centre {
-    margin-top: 50px;
+    margin-top: 57px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,14 +62,17 @@
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: -17px 4px;
+    margin: -20px 4px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
-    
+}
+.div_button:hover {
+    border-color: #d1d1d1 ;
+    box-shadow: 0px 1px 2px #0000002a;
 
 }
 
