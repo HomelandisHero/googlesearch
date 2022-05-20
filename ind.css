@@ -15,14 +15,20 @@
     line-height: 25px;
     
 }
+.head_top:hover {
+    text-decoration: underline;
+}
 
 .div_centre {
-    margin-top: 57px;
+    margin-top: 27px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     
+}
+.img_centre {
+    margin-top: 30px
 }
 
 .div_centre_search{
@@ -39,6 +45,9 @@
     height: 45px;
     border: 1px solid #e6e6e6;
     border-radius: 30px;
+}
+.div_input:hover {
+    box-shadow: 0px 1px 5px #0000002a;
 }
 
 .input {
@@ -62,7 +71,7 @@
     color: #3c4043;
     font-family: arial,sans-serif;
     font-size: 14px;
-    margin: -20px 4px;
+    margin: 0px 5px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
